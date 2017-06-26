@@ -1,0 +1,16 @@
+@import '../vendor.scss';
+
+div.Slideshow {
+  height: 300px;
+  width: 300px
+}
+
+div.Carousel.carousel.slide {
+  height: 300px;
+  width: 300px
+}
+
+/*Carousel.Item {
+  width: 300px;
+  height: 300px;
+}*/
