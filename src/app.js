@@ -10,7 +10,7 @@ class App extends Component{
     return(
 <div>
   <Menu />
-  <h1>Carousel</h1>
+  <h1 className='text-center'>Carousel</h1>
   <Slideshow />
 
 </div>

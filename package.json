@@ -21,8 +21,8 @@
   },
   "scripts": {
     "server": "webpack-dev-server",
-    "webpack": "webpack",
-    "build:public": "webpack --env=prod --progress --profile --colors"
+    "dev": "webpack --env=dev --progress --profile --colors",
+    "build": "webpack --env=prod --progress --profile --colors"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
