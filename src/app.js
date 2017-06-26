@@ -8,11 +8,14 @@ import Slideshow from './pages/components/carousel'
 class App extends Component{
   render(){
     return(
-<div>
-  <Menu />
+<div className='container'>
+
+<div className='row'>
+    <Menu />
   <h1 className='text-center'>Carousel</h1>
   <Slideshow />
 
+</div>
 </div>
           )
   }

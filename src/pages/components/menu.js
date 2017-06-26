@@ -17,8 +17,7 @@ export default class Menu extends Component{
       <NavItem eventKey={2} href="#">Link</NavItem>
     </Nav>
     <Nav pullRight>
-      <NavItem eventKey={1} href="#">Link Right</NavItem>
-      <NavItem eventKey={2} href="#">Link Right</NavItem>
+      <NavItem eventKey={2} href="#">Sign Up</NavItem>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

@@ -10,8 +10,8 @@ import heart from '../../../images/heart-1616465__340.jpg'
 export default class Slideshow extends Component{
   render(){
     return(
-      <div className='Slideshow'>
-
+      <div className=' Slideshow'>
+      <img src={heart} />
       </div>
     )
   }
